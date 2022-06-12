@@ -1,0 +1,199 @@
+html{
+    overflow-x: hidden !important;
+}
+.ic_salir,.nlg_admin{
+display: none;
+}
+/*********Menu para pantallas pequeñas******/
+.new_menu{
+    display: none;
+}
+/******************************************/
+.popup-wrapper,.popup{
+    overflow-x: hidden !important;
+}
+/*********************Responsive*************************/
+/***********************1440px**************************/
+@media screen and (max-width: 1487px) {
+    .sl_modulo{
+        margin-left: -6rem;
+    }
+     .n_modulo,.d_modulo{
+        margin-left: 28rem;
+        margin-top: -3rem;
+    }
+    .pf_modulo{
+        margin-left: -6rem;
+    }
+}
+
+/******************************************************/
+/***********************1024px**************************/
+@media screen and (max-width: 1071px) {
+    .sl_modulo{
+        margin-left: -1rem;
+    }
+    .n_modulo,.d_modulo{
+        margin-left: 22rem;
+        margin-top: -3rem;
+    }
+    .pf_modulo{
+        margin-left: -2rem;
+    }
+    .new_datos{
+        width: 7rem !important;
+    }
+
+   
+}
+    
+/*******************************************/
+
+/***********************768px**************************/
+    @media screen and (max-width: 815px) {
+        .table_modu{
+            width: 100% !important;
+        }
+        .btn_mas_info{
+            visibility: hidden;
+        }
+        #divIzquierdo{
+            display: none;
+        }
+        .new_menu{
+            display: block;
+            position: absolute;
+            left: -39.25rem;
+            top: -3.1rem;
+            width: 20rem !important;
+            
+        }
+      
+        .gestionar_usuarios {   
+            right:  -12rem !important;
+        }
+        .menu_title{
+            margin-left: -0.25rem;
+          
+        }
+        .btn_gestion_user,.btn_salir{
+            display: none !important;
+       
+        }
+        .nlg_admin{
+            display: block;
+            margin-top: -5rem;
+            margin-right: 12rem;
+           
+        }
+        .ic_salir{
+            display: block;
+            cursor: pointer;
+            margin-top: -4.6rem;
+            position: absolute;
+            right: 10rem;
+        }
+        .sl_modulo{
+            margin-left: -1rem;
+        }
+        .n_modulo,.d_modulo{
+            margin-left: 16rem;
+            margin-top: -3rem;
+        }
+        .pf_modulo{
+            margin-left: -2rem;
+        }
+        .btn_gestion_user,.btn_salir{
+            display: none !important;
+        }
+        
+     }
+
+/******************************************************/
+
+/***********************425px**************************/
+    @media screen and (max-width: 472px) {
+        .table_modu th,.table_modu td{
+            font-size: 0.55rem !important;
+        }
+        .añadir_mas,.breadcrumb-item{
+            font-size: 0.75rem !important;    
+        }
+        .img_modu{
+                width: 1.5rem !important;
+                height: 1.5rem !important;
+            }
+            .new_menu{
+                left: -12.25rem;
+                top: 0.2rem;
+            }
+            .menu_title{
+                font-size: 0.60rem !important;
+                margin-left: -0.25rem;
+              
+            }
+            .img_modu{
+                width: 1.5rem !important;
+                height: 1.5rem !important;
+                }
+            .sub{
+                margin-left: 8rem;
+            }
+            .ic_salir{
+                margin-right: 1rem;
+                margin-top: 1.6rem;
+                right: 9rem;
+            }
+            img.logo_ins{
+                display: none !important;
+            }
+            .new_datos{
+                width: 4rem !important;
+            }
+ 
+    }
+      /***********************375px**************************/
+      @media screen and (max-width: 422px) {
+        .table_modu th,.table_modu td,.añadir_mas,.breadcrumb-item{
+            font-size: 0.50rem !important;    
+            }
+            .sub{
+                margin-left: 5rem;
+            }
+            .img_modu{
+                width: 1.50rem;
+                height: 1.50rem;
+            }
+            .new_menu{
+                left: -24rem;
+                top: 0.25rem;
+            }
+
+            .logo{
+                display: none !important;
+            }
+            .new_datos{
+                width: 3.25rem !important;
+            }
+    }
+    /********************************************************/
+          /***********************320px**************************/
+          @media screen and (max-width: 367px) {
+            .new_menu{
+                left: -21rem;
+            }
+            .img_modu{
+                width: 1.25rem;
+                height: 1.25rem;
+            }
+            .breadcrumb-item{
+                font-size: 0.40rem !important;    
+            }
+            .new_datos{
+                width: 2.25rem !important;
+            }
+        }
+        /********************************************************/
+      
+      /********************End responsive***********************/
+      

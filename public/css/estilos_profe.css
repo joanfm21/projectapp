@@ -1,0 +1,73 @@
+html{
+    overflow-x: hidden !important;
+}
+.ic_salir,.nlg_admin{
+display: none;
+}
+/**Menu para pantallas pequeñas**/
+.new_menu{
+    display: none;
+}
+/**/
+.popup-wrapper,.popup{
+    overflow-x: hidden !important;
+}
+/**Responsive**/
+/**1440px**/
+@media screen and (max-width: 1487px) {
+    p.card_cpro{
+        width: 11rem !important;
+        margin-left: -3rem;
+    }
+    .estadisticas{
+        position: absolute !important;
+        right: 5rem !important;
+    }
+}
+
+/**/
+/**1024px**/
+@media screen and (max-width: 1071px) {
+    p.card_cpro{
+        width: 11rem !important;
+        margin-left: -4rem;
+    }
+    .table_alu_pro th, .table_alu_pro td{
+        font-size: 0.70rem !important;
+    }
+    .table_evalu th, .table_evalu td{
+        font-size: 0.75rem !important;
+
+    }
+    .table_evalu td.td_descrip{
+        font-size: 0.60rem !important;
+    }
+    }
+
+/**/
+
+/**768px**/
+    @media screen and (max-width: 815px) {
+
+
+     }
+
+/**/
+
+/**425px**/
+    @media screen and (max-width: 472px) {
+
+ 
+    }
+      /**375px**/
+      @media screen and (max-width: 422px) {
+
+    }
+    /**/
+          /**320px**/
+          @media screen and (max-width: 367px) {
+
+        }
+        /**/
+
+      /**End responsive***/

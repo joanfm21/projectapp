@@ -1,0 +1,61 @@
+html{
+    overflow-x: hidden !important;
+}
+.ic_salir,.nlg_admin{
+display: none;
+}
+/**Menu para pantallas pequeñas**/
+.new_menu{
+    display: none;
+}
+/**/
+.popup-wrapper,.popup{
+    overflow-x: hidden !important;
+}
+/**Responsive**/
+/**1440px**/
+@media screen and (max-width: 1487px) {
+   
+    .estadisticas{
+        cursor: pointer;
+        position: absolute !important;
+        right: 7rem !important;
+        top:9rem;
+        width: 90px !important;
+        height: 90px !important;
+    }
+}
+
+/**/
+/**1024px**/
+@media screen and (max-width: 1071px) {
+   
+    }
+
+/**/
+
+/**768px**/
+    @media screen and (max-width: 815px) {
+
+
+     }
+
+/**/
+
+/**425px**/
+    @media screen and (max-width: 472px) {
+
+ 
+    }
+      /**375px**/
+      @media screen and (max-width: 422px) {
+
+    }
+    /**/
+          /**320px**/
+          @media screen and (max-width: 367px) {
+
+        }
+        /**/
+
+      /**End responsive***/

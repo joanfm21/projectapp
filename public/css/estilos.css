@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+body{
+    font-size: 16px;
+    background-color: #f0f1f4;
+    font-family: 'Roboto Mono', monospace;
+    overflow-x: hidden;
+    
+}
+
+#divDerecho{
+    margin-top: -24rem;
+    background-color: #fff !important;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#divIzquierdo{
+    position:fixed;
+    height: 100vh;
+    background-color: #212529;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#divHeader{
+    margin-right: -1.9rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+/*******Header*********/
+.logo{
+    width: 190px;
+    height: 84px;
+}
+
+/***********End Header***************/
+
+
+/***************Subtitulo*******************/
+.subtitulo{
+    font-size: 2rem;
+    font-weight: 500;
+  
+}
+
+/*************End Subtitulo**********************/
+
+/***************Contenedor derecho***************/
+/*****************Inicio Table*******************/
+.question{
+    float: right;
+    cursor: pointer;
+}
+.mas_info{
+    position: absolute;
+    right: 2rem;
+    top: 9rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow-y: auto;
+    display: none;
+
+}
+.table{
+    width: 65%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mp{
+    width: 40px;
+    height: 18px;
+}
+.btn_mas_info{
+    z-index:999;
+}
+.salir{
+    cursor: pointer;
+}
+
+.añadir_mas{
+  float: right;
+}
+/**************End Table***********************/
+/*******************Ventana formulario**********/
+.popup-wrapper,.popup-wrapper2{
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  
+  .popup, .popup2 {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    max-width: 90%;
+    max-height: 100%;
+    background: white;
+    margin: 10% auto;
+    padding: 20px;
+    position: relative;
+    top: -5rem;
+    overflow-y: auto;
+  }
+ 
+  .popup a,.popup2 a{
+    background: salmon;
+    color: white;
+    text-decoration: none;
+    padding: 6px 10px;
+    margin: 30px auto;
+    display: block;
+    width: 50%;
+  }
+  
+  .popup a:hover,  .popup2 a:hover {
+    background: palevioletred;
+    transition: all 0.2s;
+  }
+  
+  
+  .popup-close,  .popup-close2{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+
+
+/******************End ventana formulario*********/
+/****************End contenedor derecho***********/
+
+/*************Contenedor izquierdo*****************/
+.img_dash{
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-top: 3rem;
+    margin-left: 1rem;  
+}
+
+.dashboard{
+    color: #f0f1f4;
+    font-size: 18px;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+.linea{
+    background-color: #f0f1f4 ;
+    margin-top: 3rem;
+    margin-left: -3.4rem;
+    width: 244%;
+    
+}
+/*********Menu div izquierdo**************/
+
+.btn_ciclos{
+    color: #f0f1f4 !important;
+    font-size: 16px !important; 
+    border:  none !important;
+    margin-top: 4rem;
+    margin-left: -6rem;
+}
+.btn_modulos{
+    color: #f0f1f4 !important;
+    font-size: 16px !important; 
+    border:  none !important;
+    position: absolute;
+    top: 15.7rem;
+    left: 3.7rem;
+}
+.btn_alumnos{
+    color: #f0f1f4 !important;
+    font-size: 16px !important; 
+    border:  none !important;
+    position: absolute;
+    top: 18.7rem;
+    left: 3.7rem;
+}
+.btn_profesores{
+    color: #f0f1f4 !important;
+    font-size: 16px !important; 
+    border:  none !important;
+    position: absolute;
+    top: 21.7rem;
+    left: 3.7rem;
+}
+.btn_admin{
+    color: #f0f1f4 !important;
+    font-size: 16px !important; 
+    border:  none !important;
+    position: absolute;
+    top: 24.7rem;
+    left: 3.7rem;
+}
+.titulo{
+    color: #f0f1f4;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.img_gest_menu{
+    width: 25px;
+    height: 25px;
+}
+
+/**********end menu div izquierdo******************/
+/****************End contenedor izquierdo**********/
+/***********Login****************/
+.img_login{
+    width: 35px;
+    height: 35px;
+    margin-top: -0.25rem;
+}
+.login{
+    margin-left: 11rem;
+}
+.login_t{
+    margin-left: 12rem;
+}
+.captcha{
+    margin-left: 13rem;
+}
+.recordarPssw{
+    margin-left: 15.5rem;
+}
+.btn_enviar{
+    margin-left: 20.5rem;
+}
+/************************/
+/*********Apartado admin************/
+
+.img_modi{
+    width: 40px;
+    height: 40px;
+}
+
+.btn_guardar_modu{
+    float: right;
+}
+.img_accion{
+    width: 35px;
+    height: 35px;
+}
+.btn_c{
+    margin-left: -2rem;
+}
+
+#btnGuardarC, #btnGuardar{
+    display: none;
+}
+.descrip_modulo{
+    width: 6rem;
+}
+/*******************************/
+/**********Apartado profesores******************/
+.img_alumno{
+    width: 65px;
+    height: 65px;
+}
+
+.card_alumnos,.datos_alumno,.alumno_notas {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#btnGuardarN{
+display: none;
+}
+.comentario{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+.select_ciclo_profe,.select_ciclo_modu,.select_profe_modu,.select_ciclo_alumno{
+    width: auto !important;
+}
+.cualificacion{
+    cursor: pointer;
+}
+/*************************************************/
